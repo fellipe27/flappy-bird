@@ -1,3 +1,4 @@
+from bird import Bird
 import pygame
 import sys
 
@@ -15,10 +16,11 @@ class Events:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     if self.game.is_in_title:
+                        self.game.birds = [Bird()]
                         self.game.is_in_title = False
                         self.game.is_playing = True
 
-                    if self.game.is_playing:
+                    if self.game.is_playing and not self.game.ai_playing:
                         for bird in self.game.birds:
                             bird.jump()
 
@@ -26,3 +28,7 @@ class Events:
                         self.game.is_game_over = False
                         self.game.is_playing = True
                         self.game.restart_game()
+                elif event.key == pygame.K_m and self.game.is_in_title:
+                    self.game.is_in_title = False
+                    self.game.ai_playing = True
+                    self.game.is_playing = True
