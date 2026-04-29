@@ -41,9 +41,10 @@ https://github.com/fellipe27/flappy-bird/releases
 
 ## 🗂️ Project structure
 ```md
-src/        -> Game source code
-resources/  -> Images and sounds
-docs/       -> Screenshots and GIFs
+flappy-bird/
+    - src/          # Game source code
+    - resources/    # Images and sounds
+    - docs/         # Screenshots and GIFs
 ```
 
 ## 📄 License
