@@ -23,7 +23,7 @@ A Flappy Bird clone built in pure Java using Swing, focusing on game development
 
 ## ▶️ How to run
 Option 1 - Run from source:
-```md
+```bash
 git clone https://github.com/fellipe27/flappy-bird.git
 cd flappy-bird
 javac src/*.java
@@ -31,7 +31,7 @@ java src.Main
 ```
 
 Option 2 - Run JAR:
-```md
+```bash
 java -jar flappy-bird.jar
 ```
 
@@ -40,7 +40,7 @@ You can download the latest version here:
 https://github.com/fellipe27/flappy-bird/releases
 
 ## 🗂️ Project structure
-```md
+```text
 flappy-bird/
     - src/game/             # Game source code
         - managers/         # UI management
