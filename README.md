@@ -56,4 +56,4 @@ flappy-bird/
 MIT
 
 ## 👨‍💻 Author
-Developed by **Paulo Fellipe**
+Developed by **[Paulo Fellipe](https://github.com/fellipe27)**
